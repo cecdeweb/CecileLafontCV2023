@@ -1,18 +1,97 @@
-#container {
-  background-color: rgb(249, 246, 242);
+@font-face {
+    font-family: 'Captureit';
+    src: url('/assets/typos/Capture_it-webfont.woff');
 }
-.links {
-  /* mise en forme de tous les liens */
+@font-face {
+    font-family: 'GroteskRegular';
+    src: url('/assets/typos/CabinetGrotesk-Regular.woff');
+}
+body {
+    background-color: #f3bc33;
+    font-family: 'GroteskRegular', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+.font1 {
+    font-family: 'Captureit';
+    font-size: 3em;
+    font-weight: 400;
+}
+.font2 {
+    font-family: 'GroteskRegular';
+    font-size:1.5em;
+}
+a.link {
+    color: #fffdf6;
+}
+.link-smedia {
+    height: 24px;
+}
+#container {
+    /* positionnement bloc main */
+    margin: 0 20px 50px 20px;
+    background-color: #fffdf6;
+}
+header {
+    height: 100px;
+    align-items: center;
+}
+footer {
+    /* afficher en version mobile */
+    display: none;
+}
+#smedia {
+    width: 33%;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b3b3b;
+    padding: 0 20px 0 5px;
+    border-radius: 20px 0 0 20px;
+}
+#decorlink-smedia {
+    width: 24px;
+    height: 24px;
+    background-color: #f3bc33;
+    border-radius: 20px;
+    padding: 2px;
+}
+#identity {
+    /* positionnement section identité */
+}
+#photo {
+    /* positionnement photo */
+}
+#content {
+    /* position de tout le bloc de contenu principal */
+}
+#col-1-left {
+    /* section colonne gauche */
+}
+#divider-c {
+    /* ligne de division centrale */
+}
+#col-3-right {
+    /* section colonne droite */
+}
+#all-skills {
+    /* bloc des skills avec titre pour flex col ou créer style flex dir col global */
+}
+#success-story {
+    /* bloc aside tel avec anim au survol sur desktop et en footer fixe sur mobile */
 }
 .phone {
-  /* mise en forme du num tel */
+    /* mise en forme du num tel */
 }
 #line-solid {
-  /* ligne sous titre principal */
+    /* ligne sous titre principal */
 }
 .label-title {
-  /* mise en forme titre dans HARD SKILLS */
+    /* mise en forme titre dans HARD SKILLS */
 }
 .item-sk {
-  /* mise en forme mots clés dans SOFT SKILLS */
+    /* mise en forme mots clés dans SOFT SKILLS */
+}
+.link-story {
+    /* icon lien dans story */
 }

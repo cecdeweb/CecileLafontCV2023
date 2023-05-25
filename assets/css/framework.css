@@ -1,47 +1,25 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(255, 187, 0);
-}
-#container {
-  /* positionnement bloc main */
-}
-#smedia {
-  /* positionnement bloc médias sociaux */
-}
-#identity {
-  /* positionnement section identité */
-}
-#photo {
-  /* positionnement photo */
-}
-#content {
-  /* position de tout le bloc de contenu principal */
-}
-#col-1-left {
-  /* section colonne gauche */
-}
-#divider-c {
-  /* ligne de division centrale */
-}
-#col-3-right {
-  /* section colonne droite */
-}
-#all-skills {
-  /* bloc des skills avec titre pour flex col ou créer style flex dir col global */
-}
-#success-story {
-  /* bloc aside tel avec anim au survol sur desktop et en footer fixe sur mobile */
+    margin: 0;
+    padding: 0;
 }
 .dflex {
-  display: flex;
+    display: flex;
 }
-.flexrow {
-  flex-direction: row;
+.fdrow {
+    flex-direction: row;
 }
-.flexcol {
-  flex-direction: column;
+.fdrowr {
+    flex-direction: row-reverse;
+}
+.fdcol {
+    flex-direction: column;
+}
+.fnowrap {
+    flex-wrap: nowrap;
 }
 .upper {
-  text-transform: uppercase;
+    text-transform: uppercase;
+}
+.link {
+    text-decoration: none;
 }
