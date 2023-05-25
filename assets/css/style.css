@@ -1,3 +1,18 @@
-.upper {
-    text-transform: uppercase;
+#container {
+  background-color: rgb(249, 246, 242);
+}
+.links {
+  /* mise en forme de tous les liens */
+}
+.phone {
+  /* mise en forme du num tel */
+}
+#line-solid {
+  /* ligne sous titre principal */
+}
+.label-title {
+  /* mise en forme titre dans HARD SKILLS */
+}
+.item-sk {
+  /* mise en forme mots clés dans SOFT SKILLS */
 }
