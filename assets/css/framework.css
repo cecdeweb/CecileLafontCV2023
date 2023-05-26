@@ -1,3 +1,4 @@
+/* POSITIONNEMENT */
 body {
     margin: 0;
     padding: 0;
@@ -14,12 +15,119 @@ body {
 .fdcol {
     flex-direction: column;
 }
+.fdcolr {
+    flex-direction: column-reverse;
+}
 .fnowrap {
     flex-wrap: nowrap;
 }
+.fwrap {
+    flex-wrap: wrap;
+}
+.fjcenter {
+    justify-content: center;
+}
+.posrel {
+    position: relative;
+}
+.posabs {
+    position: absolute;
+}
+.marg1 {
+    margin: 10px;
+}
+.marg2 {
+    margin: 20px;
+}
+.marg4 {
+    margin: 40px;
+}
+.margt0 {
+    margin-top: 0;
+}
+.margt1 {
+    margin-top: 10px;
+}
+.margt2 {
+    margin-top: 20px;
+}
+.margt4 {
+    margin-top: 40px;
+}
+.margt6 {
+    margin-top: 60px;
+}
+.margb0 {
+    margin-bottom: 0;
+}
+.margb1 {
+    margin-bottom: 10px;
+}
+.margb2 {
+    margin-bottom: 20px;
+}
+.margb4 {
+    margin-bottom: 40px;
+}
+.margb6 {
+    margin-bottom: 60px;
+}
+.margl1 {
+    margin-left: 10px;
+}
+.margl2 {
+    margin-left: 20px;
+}
+.margl3 {
+    margin-left: 30px;
+}
+.margl4 {
+    margin-left: 40px;
+}
+.margl6 {
+    margin-left: 60px;
+}
+.margr1 {
+    margin-right: 10px;
+}
+.margr2 {
+    margin-right: 10px;
+}
+.margr3 {
+    margin-right: 30px;
+}
+.margr4 {
+    margin-right: 40px;
+}
+.margr6 {
+    margin-right: 60px;
+}
+.rot90 {
+  transform: rotate(90deg);
+}
+/* TEXT */
 .upper {
     text-transform: uppercase;
 }
 .link {
     text-decoration: none;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+/* COLORS */
+.black {
+    color: black;
+}
+.darkgrey {
+    color: #3b3b3b;
+}
+.grey {
+    color: #a6a6a6;
 }
