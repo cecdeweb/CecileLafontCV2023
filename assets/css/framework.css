@@ -33,6 +33,9 @@ body {
 .posabs {
     position: absolute;
 }
+.marg0 {
+    margin: 0px;
+}
 .marg1 {
     margin: 10px;
 }
@@ -101,6 +104,9 @@ body {
 }
 .margr6 {
     margin-right: 60px;
+}
+.padr2 {
+    padding-right: 20px;
 }
 .rot90 {
   transform: rotate(90deg);
