@@ -45,28 +45,20 @@ footer {
     border-radius: 10px;
     width: 100%;
 }
-
+/* 
 #content {
     width: 100%;
-}
-#col-1-left, #col-1-right {
+} */
+#col-1-left, #col-3-right {
     /* position de tout le bloc de contenu principal */
-    flex: 1 0 48%;
+    /* flex: 1 0 48%; */
+    width: 47%;
 }
 #divider-c {
     flex: 0 0 1px;
     border: 1px solid black;
     background-color: black;
     margin: 0 20px;
-}
-#col-1-left {
-    /* section colonne gauche */
-}
-#divider-c {
-    /* ligne de division centrale */
-}
-#col-3-right {
-    /* section colonne droite */
 }
 
 /******************* FONTS *******************/
@@ -183,28 +175,54 @@ footer {
 .item-education {
     justify-content: space-between;
 }
-#address-id {
+div.thead-xp {
+    justify-content: space-between;
+    margin-top: 25.536px;
 }
-#present-id {
+div.thead-xp p {
+    margin-top: 0px;
 }
-#all-skills {
-    /* bloc des skills avec titre pour flex col ou créer style flex dir col global */
+span.pill-xp {
+    background-color: #a6a6a6;
+    color: #fffdf6;
+    font-size: smaller;
+    border-radius: 10px;
+    padding: 0 8px;
+    margin: 0 4px;
 }
 #success-story {
-    /* bloc aside tel avec anim au survol sur desktop et en footer fixe sur mobile */
+    position:absolute;
+    left: 200px;
 }
 .phone {
-    /* mise en forme du num tel */
+  width: 500px;
+  height: 600px;
+  background-color: #000;
+  border: #a6a6a6 solid 4px;
+  border-radius: 60px;
+  margin: 50px auto 0 auto;
+  position: relative;
+  /* overflow: hidden; */
 }
-#line-solid {
-    /* ligne sous titre principal */
+.topscreen {
+  height: 50px;
+  width: 160px;
+  margin: 0 auto -35px auto;
+  border-radius: 20px;
+  background-color: #000;
+  position: relative;
+  z-index: 1000;
 }
-.label-title {
-    /* mise en forme titre dans HARD SKILLS */
+.screen {
+  width: 450px;
+  height: 550px;
+  background-color: #fff;
+  margin: 10px auto;
+  border-radius: 40px;
+  text-align: center;
 }
-.item-sk {
-    /* mise en forme mots clés dans SOFT SKILLS */
-}
-.link-story {
-    /* icon lien dans story */
+.screen p {
+  padding: 20px;
+  margin: 0;
+  font-size: 16px;
 }
