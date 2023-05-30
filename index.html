@@ -303,58 +303,59 @@
                                 <div id="t3-success" class="upper font3 first">Project</div>
                             </div>
                         </div>
-                        <div class="item-success dflex margr4 margl4">
+                        <div class="item-success dflex margr4 margl4 margb2">
                             <div class="number-success font1 dflex">1</div>
                             <div class="content-success dflex fdcol left">
                                 <div class="title-success font3">Communication évènement Playmobil</div>
                                 <p class="desc-success font6 marg0">+ de 6000 entrées dans le weekend</p>
                             </div>
-                            <div class="link-success dflex"><img src="/assets/images/Insert-link-icon-vector-01.svg" alt="" width="40px"></div>
+                            <div class="link-success dflex">
+                                <a href="https://vimeo.com/278296222" target="_blank">
+                                    <img src="/assets/images/Insert-link-icon-vector-01.svg" alt="" width="40px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item-success dflex margr4 margl4 margb2">
+                            <div class="number-success font1 dflex">2</div>
+                            <div class="content-success dflex fdcol left">
+                                <div class="title-success font3">Création de Collectifs</div>
+                                <p class="desc-success font6 marg0">FlixFlex - Les Zérohics - SCIC Zone d'Inspiration</p>
+                            </div>
+                            <div class="link-success dflex">
+                                <a href="https://www.youtube.com/channel/UCClBwNlsSqFxPHgtVERx9Sg" target="_blank">
+                                    <img src="/assets/images/Insert-link-icon-vector-01.svg" alt="" width="40px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item-success dflex margr4 margl4 margb2">
+                            <div class="number-success font1 dflex">3</div>
+                            <div class="content-success dflex fdcol left">
+                                <div class="title-success font3">Club entreprise</div>
+                                <p class="desc-success font6 marg0">Lancement du Club de la CCM en tant que Chargée de communication</p>
+                            </div>
+                            <div class="link-success dflex">
+                                <a href="https://www.clubdesentreprises-ccm.org/adherer-au-club/" target="_blank">
+                                    <img src="/assets/images/Insert-link-icon-vector-01.svg" alt="" width="40px">
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="button-right"></div>
             </div>
-            <!-- <div id="phone-sstory">
-                <div class="title-pstory">
-                    <p id="txt-success-pstory">Success</p>
-                    <p id="txt-story-pstory">Story</p>
-                    <p id="txt-project-pstory">Project</p>
-                </div>
-                <div class="item-story">
-                    <div class="number-story">1</div>
-                    <div class="desc-story">
-                        <div class="title-dstory">Communication évènement
-                            Playmobil</div>
-                        <div class="subtitle-dstory">+ de 6000 visiteurs</div>
-                    </div>
-                    <div class="link-story"><img src="/assets/images/Insert-link-icon-vector-01.svg"
-                            alt="Icon de lien vers vidéo reportage de l'évènement Playmobil" width="20px"></div>
-                </div>
-                <div class="item-story">
-                    <div class="number-story">2</div>
-                    <div class="desc-story">
-                        <div class="title-dstory">Création de Collectifs</div>
-                        <div class="subtitle-dstory">FlixFlex - SCIC Zone d'Inspiration
-                            - Les Zérohics</div>
-                    </div>
-                    <div class="link-story"><img src="/assets/images/Insert-link-icon-vector-01.svg"
-                            alt="Icon de lien vers les vidéos teaser de l'équipe Zone d'Inspiration" width="20px"></div>
-                </div>
-                <div class="item-story">
-                    <div class="number-story">3</div>
-                    <div class="desc-story">
-                        <div class="title-dstory">Création d'un club d'entreprise</div>
-                        <div class="subtitle-dstory">Chargée de
-                            communication du Club de la CCM</div>
-                    </div>
-                    <div class="link-story"><img src="/assets/images/Insert-link-icon-vector-01.svg"
-                            alt="Icon de lien vers le site du Club des entreprises de la CCM" width="20px"></div>
-                </div>
-            </div> -->
         </aside>
     </main>
     <footer></footer>
 </body>
+<script>
+    const successStory = document.getElementById('success-story');
 
+    successStory.addEventListener('mouseover', () => {
+        successStory.style.bottom = '-400px';
+    });
+
+    successStory.addEventListener('mouseout', () => {
+        successStory.style.bottom = '-772px';
+    });
+</script>
 </html>

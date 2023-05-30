@@ -39,6 +39,9 @@ body {
 .alignitem-c {
     align-items: center;
 }
+.margauto {
+    margin: 0 auto;
+}
 .marg0 {
     margin: 0px;
 }
@@ -119,6 +122,21 @@ body {
 }
 .pad4 {
     padding: 40px;
+}
+.pad6 {
+    padding: 60px;
+}
+.padt0 {
+    padding-top: 0px;
+}
+.padt2 {
+    padding-top: 20px;
+}
+.padt4 {
+    padding-top: 40px;
+}
+.padt6 {
+    padding-top: 60px;
 }
 .padl2 {
     padding-left: 20px;

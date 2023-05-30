@@ -189,68 +189,70 @@ span.pill-xp {
     position: fixed;
     left: 10%;
     rotate: -5deg;
-    /* bottom: -772px; */
-    bottom: -504px;
+    bottom: -772px;
+    transition: bottom 1s ease;
 }
 .phone-story {
-  width: 500px;
-  height: 800px;
-  background-color: #000;
-  border: #a6a6a6 solid 4px;
-  border-radius: 60px;
-  margin: 0 5px 0 5px;
-  position: relative;
+    width: 500px;
+    height: 800px;
+    background-color: #000;
+    border: #a6a6a6 solid 4px;
+    border-radius: 60px;
+    margin: 0 5px 0 5px;
+    position: relative;
+    box-shadow: 10px 5px 15px #3b3b3b49;
+
 }
 .topscreen {
-  height: 50px;
-  width: 160px;
-  margin: 0 auto -35px auto;
-  border-radius: 20px;
-  background-color: #000;
-  position: relative;
-  z-index: 1000;
+    height: 50px;
+    width: 160px;
+    margin: 0 auto -35px auto;
+    border-radius: 20px;
+    background-color: #000;
+    position: relative;
+    z-index: 1000;
 }
 .screen {
-  width: 90%;
-  height: 90%;
-  background-color: #d7d7d7;
-  margin: 10px auto;
-  border-radius: 40px;
-  text-align: center;
+    width: 90%;
+    height: 90%;
+    background-color: #d7d7d7;
+    margin: 10px auto;
+    border-radius: 40px;
+    text-align: center;
 }
 .buttons-left div {
-  position: relative;
-  border-radius: 3px 0 0 3px;
-  background-color: grey;
+    position: relative;
+    border-radius: 3px 0 0 3px;
+    background-color: grey;
 }
 .button-left-1 {
-  height: 40px;
-  width:8px;
-  top: 400px;
+    height: 40px;
+    width:8px;
+    top: 400px;
 }
 .button-left-2 {
-  height: 80px;
-  width:8px;
-  top: 420px;
+    height: 80px;
+    width:8px;
+    top: 420px;
 }
 .button-left-3 {
-  height: 80px;
-  width:8px;
-  top: 440px;
+    height: 80px;
+    width:8px;
+    top: 440px;
 }
 .button-right {
-  border-radius: 0 3px 3px 0;
-  background-color: grey;
-  height: 120px;
-  width: 8px;
-  position: relative;
-  left: 512px;
-  top: -560px;
+    border-radius: 0 3px 3px 0;
+    background-color: grey;
+    height: 120px;
+    width: 8px;
+    position: relative;
+    left: 512px;
+    top: -560px;
 }
 /******************* CONTENT PHONE *******************/
 #t1-success {
     background-color: #3b3b3b;
-    padding: 10px 15px;
+    padding: 10px 20px;
 }
 #t2-success {
     rotate: -5deg;
