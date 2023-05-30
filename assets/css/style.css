@@ -47,8 +47,7 @@ footer {
 }
 #col-1-left, #col-3-right {
     /* position de tout le bloc de contenu principal */
-    /* flex: 1 0 48%; */
-    width: 47%;
+    flex: 1 1 46%;
 }
 #divider-c {
     flex: 0 0 2px;
@@ -56,7 +55,9 @@ footer {
     background-color: black;
     margin: 29px 40px 131px 40px;
 }
-
+div#col-3-right {
+    padding-right: 20px;
+}
 /******************* FONTS *******************/
 
 .font1 {
