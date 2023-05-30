@@ -111,8 +111,26 @@ body {
 .margr6 {
     margin-right: 60px;
 }
+.pad0 {
+    padding: 0px;
+}
+.pad2 {
+    padding: 20px;
+}
+.pad4 {
+    padding: 40px;
+}
+.padl2 {
+    padding-left: 20px;
+}
+.padl4 {
+    padding-left: 40px;
+}
 .padr2 {
     padding-right: 20px;
+}
+.padr4 {
+    padding-right: 40px;
 }
 .rot90 {
   transform: rotate(90deg);
