@@ -221,6 +221,9 @@ span.pill-xp {
     border-radius: 40px;
     text-align: center;
 }
+.buttons-left {
+    height: 0;
+}
 .buttons-left div {
     position: relative;
     border-radius: 3px 0 0 3px;
@@ -229,23 +232,23 @@ span.pill-xp {
 .button-left-1 {
     height: 40px;
     width:8px;
-    top: 400px;
+    top: 150px;
 }
 .button-left-2 {
     height: 80px;
     width:8px;
-    top: 420px;
+    top: 160px;
 }
 .button-left-3 {
     height: 80px;
     width:8px;
-    top: 440px;
+    top: 170px;
 }
 .button-right {
     border-radius: 0 3px 3px 0;
     background-color: grey;
     height: 120px;
-    width: 8px;
+    width: 6px;
     position: relative;
     left: 512px;
     top: -560px;
@@ -275,4 +278,8 @@ span.pill-xp {
 }
 .content-success {
     flex: 6 0 80%;
+}
+/******************* MEDIA QUERIES *******************/
+@media screen {
+    
 }
