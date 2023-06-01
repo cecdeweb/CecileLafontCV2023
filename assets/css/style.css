@@ -93,6 +93,9 @@ div#col-3-right {
     font-family: 'GroteskRegular';
     font-size: 0.9em;
 }
+.date-xp {
+    white-space: nowrap;
+}
 /******************* COLORS *******************/
 .first {
     color: black;
@@ -280,6 +283,97 @@ span.pill-xp {
     flex: 6 0 80%;
 }
 /******************* MEDIA QUERIES *******************/
-@media screen {
-    
+@media screen and (max-width: 1199px) {
+    section#content {
+        flex-direction: column;
+    }
+    #divider-c {
+        display: none;
+    }
+    .right {
+        text-align: center;
+    }
+    div#all-skills, div#hobbies {
+        margin: 0 40px 0 20px;
+    }
+    div#education, div#col-3-right {
+        margin: 0 40px;
+    }
+    #success-story {
+        position: relative;
+        float: left;
+        left: 67px;
+        top: -216px;
+    }
+    div.certif-xp {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    section#identity {
+        flex-direction: column;
+    }
+    div#smedia {
+        width: 80%;
+    }
+    #photo-id {
+        left: 30%;
+        top: 100px;
+        width: 140px;
+        height: 140px;
+    }
+    div#address-id {
+        margin-top: 96px;
+    }
+    div#all-skills h4, div#col-3-right h2 {
+        text-align: center;
+    }
+    div.col-skills {
+        flex-direction: column;
+    }
+    div.item-xp {
+        justify-content: center;
+    }
+    #success-story {
+        display: flex;
+        position: inherit;
+        float: inherit;
+        left: inherit;
+        top: 4px;
+        rotate: -2deg;
+        justify-content: center;
+        align-items: center;
+    }
+    .phone-story {
+        width: 316px;
+        height: 716px;
+    }
+    .button-right {
+        left: 329px;
+    }
+    .title-success {
+        font-size: 1.2em;
+        line-height: 1em;
+    }
+    .number-success {
+        display: none;
+    }
+    div#t-success {
+        flex-direction: column;
+        align-items: center;
+    }
+    div#t3-success {
+        padding: 5px 50px;
+    }
+    div#t2-success {
+        width: auto;
+    }
+    .link-success.dflex a img {
+        width: 32px;
+    }
+    div.thead-xp {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
 }
