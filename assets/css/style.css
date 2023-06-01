@@ -116,8 +116,9 @@ div#col-3-right {
 #smedia a {
     color: #fffdf6;
 }
-.link-smedia {
+.link-smedia, .link-smedia img {
     height: 24px;
+    width: 24px;
 }
 #smedia {
     width: 33%;
@@ -187,6 +188,12 @@ span.pill-xp {
     border-radius: 10px;
     padding: 0 8px;
     margin: 0 4px;
+}
+div.logo-certif a img {
+    width: 60px;
+}
+div.link-success a img {
+    width: 40px;
 }
 /******************* ASIDE PHONE *******************/
 #success-story {
