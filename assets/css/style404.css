@@ -11,20 +11,170 @@ div.canvas {
     width: 100vw;
 }
 .circle {
-  position: relative;
-  left: 0;
-  top: 0;
-  width: 80%;
-  height: 80%;
-  text-align: center;
-  background-color: black;
-  border-radius: 50%;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    background-color: paleturquoise;
+    border-radius: 50%;
+    overflow: hidden;
 }
-.content {
-  display: grid;
-  grid-template-columns: repeat(19, 1fr); /* 19 colonnes égales */
-  grid-template-rows: repeat(15, 1fr); /* 15 lignes égales */
-  height: inherit;
+.grid-content {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr); /* 19 colonnes égales */
+    grid-template-rows: repeat(14, 1fr); /* 15 lignes égales */
+    height: 100%;
+}
+/* framework grid */
+.gcsp2 {
+    grid-column: span 2;
+}
+.gcsp3 {
+    grid-column: span 3;
+}
+.gcsp4 {
+    grid-column: span 4;
+}
+.gcsp5 {
+    grid-column: span 5;
+}
+.gcsp6 {
+    grid-column: span 6;
+}
+.gcsp7 {
+    grid-column: span 7;
+}
+.gcsp8 {
+    grid-column: span 8;
+}
+.gcsp9 {
+    grid-column: span 9;
+}
+.gcsp10 {
+    grid-column: span 10;
+}
+.gcsp11 {
+    grid-column: span 11;
+}
+.gcsp12 {
+    grid-column: span 12;
+}
+.gcsp13 {
+    grid-column: span 13;
+}
+.gcsp14 {
+    grid-column: span 14;
+}
+.gcsp15 {
+    grid-column: span 15;
+}
+.gcsp16 {
+    grid-column: span 16;
+}
+.gcsp17 {
+    grid-column: span 17;
+}
+.gcsp18 {
+    grid-column: span 18;
+}
+.gcsp19 {
+    grid-column: span 19;
+}
+.gcsp20 {
+    grid-column: span 20;
+}
+.gr1 {
+    grid-row: 1;
+}
+.gr2 {
+    grid-row: 2;
+}
+.gr3 {
+    grid-row: 3;
+}
+.gr4 {
+    grid-row: 4;
+}
+.gr5 {
+    grid-row: 5;
+}
+.gr6 {
+    grid-row: 6;
+}
+.gr7 {
+    grid-row: 7;
+}
+.gr8 {
+    grid-row: 8;
+}
+.gr9 {
+    grid-row: 9;
+}
+.gr10 {
+    grid-row: 10;
+}
+.gr11 {
+    grid-row: 11;
+}
+.gr12 {
+    grid-row: 12;
+}
+.gr13 {
+    grid-row: 13;
+}
+.gr14 {
+    grid-row: 14;
+}
+.grsp2 {
+    grid-row: span 2;
+}
+.bdwhite {
+    border: 1px solid white;
+}
+/* CUSTOM CELLS */
+.cell-l5c1, .cell-l11c1, .cell-l11c3 {
+    background-color: yellow;
+}
+.cell-l5c2 {
+    background-color: cyan;
+}
+.cell-l5c3 {
+    background-color: rgb(0, 255, 0);
+}
+.cell-l5c4 {
+    background-color: magenta;
+}
+.cell-l5c5, .cell-l11c2 {
+    background-color: red;
+}
+.cell-l5c6 {
+    background-color: blue;
+}
+.cell-l8c1 {
+    background: repeating-linear-gradient(to left, #fff, #000 5px, #fff 15px)
+}
+.cell-l8c2 {
+    background: repeating-linear-gradient(to left, #fff, #000 5px, #fff 10px)
+}
+.cell-l8c3 {
+    background: repeating-linear-gradient(to left, #fff, #000 5px, #fff 8px)
+}
+.cell-l8c4 {
+    background: repeating-linear-gradient(to left, #fff, #000 5px, #fff 6px)
+}
+.cell-l8c5 {
+    background: repeating-linear-gradient(to left, #fff, #000 5px, #fff 4px)
+}
+.cell-l8c6 {
+    background: repeating-linear-gradient(to left, #fff, #000 5px, #fff 2px)
+}
+.cell-l6c11, .cell-l6c12, .cell-l7c10 {
+    border-top: none;
+}
+.cell-l6c1, .cell-l6c2, .cell-l7c10, .cell-l7c11 {
+    border-bottom: none;
 }
 /* style background grid */
 #gridback {
@@ -44,26 +194,3 @@ div.canvas {
     border: 1px solid white;
     background-color: grey;
 }
-.bcwhite {
-    background-color: white;
-}
-.bcblack {
-    background-color: black;
-}
-/* MEDIA QUERIES */
-/* @media screen and (max-width: 900px) {
-    .circle {
-    left: calc(50vw - 200px);
-    top: calc(50vh - 200px);
-    width: 400px;
-    height: 400px;
-    }
-}
-@media screen and (max-width: 400px) {
-    .circle {
-    left: calc(50vw - 150px);
-    top: calc(50vh - 150px);
-    width: 300px;
-    height: 300px;
-    }
-} */

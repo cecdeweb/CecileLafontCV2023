@@ -179,3 +179,21 @@ body {
 .grey {
     color: #a6a6a6;
 }
+.bgblack {
+    background-color: black;
+}
+.bgdarkgrey {
+    background-color: #3b3b3b;
+}
+.bggrey {
+    background-color: grey;
+}
+.bggreylight {
+    background-color: #a6a6a6;
+}
+.bggreylight2 {
+    background-color: #d6d6d6;
+}
+.bgwhite {
+    background-color: white;
+}
