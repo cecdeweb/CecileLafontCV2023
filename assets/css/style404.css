@@ -1,0 +1,69 @@
+/* Utilisation du système de grille */
+body, html{
+    margin: 0;
+    padding: 0;
+}
+/* style circle grid */
+div.canvas {
+    position: absolute;
+    z-index: 2;
+    height: 100vh;
+    width: 100vw;
+}
+.circle {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 80%;
+  height: 80%;
+  text-align: center;
+  background-color: black;
+  border-radius: 50%;
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(19, 1fr); /* 19 colonnes égales */
+  grid-template-rows: repeat(15, 1fr); /* 15 lignes égales */
+  height: inherit;
+}
+/* style background grid */
+#gridback {
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(19, 1fr); /* 19 colonnes égales */
+    grid-template-rows: repeat(15, 1fr); /* 15 lignes égales */
+    height: 100vh;
+    width: 100vw;
+}
+/* Styles pour les cellules */
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+.cell {
+    border: 1px solid white;
+    background-color: grey;
+}
+.bcwhite {
+    background-color: white;
+}
+.bcblack {
+    background-color: black;
+}
+/* MEDIA QUERIES */
+/* @media screen and (max-width: 900px) {
+    .circle {
+    left: calc(50vw - 200px);
+    top: calc(50vh - 200px);
+    width: 400px;
+    height: 400px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .circle {
+    left: calc(50vw - 150px);
+    top: calc(50vh - 150px);
+    width: 300px;
+    height: 300px;
+    }
+} */
