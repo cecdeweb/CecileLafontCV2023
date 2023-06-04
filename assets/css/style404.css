@@ -23,8 +23,8 @@ div.canvas {
 }
 .grid-content {
     display: grid;
-    grid-template-columns: repeat(20, 1fr); /* 19 colonnes égales */
-    grid-template-rows: repeat(14, 1fr); /* 15 lignes égales */
+    grid-template-columns: repeat(20, 1fr); /* 20 colonnes égales */
+    grid-template-rows: repeat(14, 1fr); /* 14 lignes égales */
     height: 100%;
 }
 /* framework grid */
@@ -196,41 +196,38 @@ div.canvas {
 }
 /* styles message */
 .scrolling-message-container {
-  position: fixed;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  transform: translateY(-50%);
-  overflow: hidden;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 4em;
-  z-index: 3;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+    z-index: 3;
 }
-
 .scrolling-message {
-  display: inline-block;
-  white-space: nowrap;
-  position: relative; /* Ajout de position relative */
-  padding: 10px 100px; /* Ajout de la marge intérieure de 10px */
-  animation: scrollText 10s linear infinite;
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+    padding: 10px 100px;
+    animation: scrollText 10s linear infinite;
 }
-
 .scrolling-message::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: calc(100% - 20px); /* Largeur égale à 100% moins les marges intérieures */
-  height: 100%;
-  background-color: white; /* Couleur de fond blanche */
-  z-index: -1; /* Place le fond derrière le texte */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 20px);
+    height: 100%;
+    background-color: white;
+    z-index: -1;
 }
-
 @keyframes scrollText {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
