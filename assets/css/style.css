@@ -96,6 +96,9 @@ div#col-3-right {
 .date-xp {
     white-space: nowrap;
 }
+div#all-skills h2, div#education h2, div#hobbies h2 {
+    text-align: end;
+}
 /******************* COLORS *******************/
 .first {
     color: black;
@@ -294,11 +297,12 @@ div.link-success a img {
     #divider-c {
         display: none;
     }
-    .right {
-        text-align: center;
-    }
     div#all-skills, div#hobbies {
-        margin: 0 40px 0 20px;
+        margin: 0 20px 0 20px;
+    }
+    div#all-skills h2, div#education h2, div#hobbies h2, div#col-3-right h2 {
+        text-align: center;
+        margin-top: 60px;
     }
     div#education, div#col-3-right {
         margin: 0 40px;
@@ -315,6 +319,10 @@ div.link-success a img {
     }
     div#present-id {
         margin-left: 60px;
+    }
+    div#all-skills div.col-skills {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
 @media screen and (max-width: 768px) {
@@ -401,5 +409,24 @@ div.link-success a img {
     }
     .font6 {
         font-size: 1em;
+    }
+    .thead-xp {
+        flex-wrap: wrap;
+    }
+    .date-educ {
+        order: 1;
+        margin-right: 10px;
+    }
+    .item-educ-line {
+        order: 2;
+    }
+    #education p {
+        margin: 10px 0 0 0;
+    }
+    div#col-3-right {
+        padding-right: 0px;
+    }
+    div#present-id {
+    margin: 20px;
     }
 }
